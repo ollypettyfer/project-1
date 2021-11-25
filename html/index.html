@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Snap Pair</title>
+  </head>
+  <body>
+    <main>
+      <nav class="buttonContainer">
+        <button id="start-button">Start <br> Game</button>
+        <h2 class="title">The Snap Pair Game</h2>
+        <button id="nextLevel">Next<br> Level !</button>
+      </nav>
+
+      <div class="scoreContainer">
+        <p class="rules">
+          Rules <br />
+          LEVEL 1 - As the fruit appears click on it to make a matching pair.
+          <br />
+          For every matching pair you score a point
+        </p>
+        <p class="rules">
+          LEVEL 2 - As the aminals appear click on them to make a matching pair.
+          <br />
+          For every matching pair you score a point, if you get is wrong you
+          will loose a point!
+        </p>
+      </div>
+
+      <div>
+        <h3 class="score">How many pairs can you make?</h3>
+      </div>
+
+      <div class="cardsContainer">
+        <h3 id="playersCardArray">Click the fruit to make a matching pair.</h3>
+        <audio id="correct" src="/audio/family-fortunes-ding.mp3"></audio>
+        <audio id="wrong" src="/audio/family-fortunes-wrong-buzzer.mp3"></audio>
+      </div>
+
+      <div id="setCard">
+        <ul class="fruitImages">
+          <li class="images">
+            <img src="/set-images/apple.png" alt="Apple" class="apple" />
+          </li>
+          <li class="images">
+            <img src="/set-images/banana.png" alt="Banana" class="banana" />
+          </li>
+          <li class="images">
+            <img
+              src="/set-images/strawberry.png"
+              alt="strawberry"
+              class="strawberry"
+            />
+          </li>
+        </ul>
+      </div>
+
+      <div id="setCardLevel2">
+        <ul class="animalImages">
+          <li class="images">
+            <img src="/set-images/raccoon.png" alt="raccoon" class="raccoon" />
+          </li>
+          <li class="images">
+            <img src="/set-images/camel.png" alt="Camel" class="camel" />
+          </li>
+          <li class="images">
+            <img src="/set-images/dog.png" alt="Dog" class="dog" />
+          </li>
+          <li class="images">
+            <img
+              src="/set-images/hippopotamus.png"
+              alt="Hippopotamus"
+              class="hippopotamus"
+            />
+          </li>
+          <li class="images">
+            <img src="/set-images/whale.png" alt="whale" class="whale" />
+          </li>
+        </ul>
+      </div>
+
+      <script src="/java-script/app.js"></script>
+    </main>
+  </body>
+</html>
