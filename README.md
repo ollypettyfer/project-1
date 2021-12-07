@@ -2,6 +2,7 @@
 
 
 # SNAP GAME
+Play here: https://ollypettyfer.github.io/project-1/
 
 A snap game built for playing in the browser.
 
