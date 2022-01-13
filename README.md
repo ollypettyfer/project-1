@@ -6,6 +6,8 @@ Play here: https://ollypettyfer.github.io/project-1/
 
 A snap game built for playing in the browser.
 
+![project-1-image](https://user-images.githubusercontent.com/85187554/149317796-078a4e98-767a-40f9-971a-f3bdf9ac745c.png)
+
 ## Requirements:
 
 * Time frame of 1 week
