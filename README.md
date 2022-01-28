@@ -42,6 +42,13 @@ My first big challenge was to create a function that would cycle through the sel
 
 Once I had this in place my second challenge was to have a function that could identify when a player had made a correct pair of images. In the example, it was my “handleResults” and “handleWhichResults” functions that achieved this.
 
+<img width="1680" alt="project-1-snippet-1" src="https://user-images.githubusercontent.com/85187554/151534639-387cf3aa-55f2-450a-86e1-18d07da9bf20.png">
+
+<img width="1680" alt="project-1-snippet-2" src="https://user-images.githubusercontent.com/85187554/151534647-23c01eab-ee85-4048-a4ad-6a4eec77b313.png">
+
+<img width="1680" alt="project-1-snippet-3" src="https://user-images.githubusercontent.com/85187554/151534657-0606239e-d2f7-4114-922a-d2291a7413de.png">
+
+
 When creating level 2 I had the challenge of removing the previous images from the game when clicking on the new level button.
 
 ## Wins
